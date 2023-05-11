@@ -1,0 +1,45 @@
+Leonid Pospelov (2):
+      [Misc] cmake: quote WASMEDGE_LLVM_LINK_LIBS_NAME variable in order to fix arm64-osx AOT build (#2443)
+      [Windows] Fix missing msvcp140.dll issue (#2455)
+
+Shen-Ta Hsieh (1):
+      [AOT] Fix AOT Error on MacOS, fix #2427
+
+Tyler Rockwood (1):
+      [Docs] Fix HostFunction with data example (#2441)
+
+Xin Liu (6):
+      [Rust] Update standalone config (#2450)
+      [CI] Update crate release workflows (#2460)
+      [CI] Update cargo tokens in the crates release workflows (#2461)
+      [Rust] Bump version of wasmedge-types (#2462)
+      [CI] Update crates release workflows (#2473)
+      [Rust] Introduce `fiber-for-wasmedge` (#2468)
+
+YiYing He (7):
+      [CI] Not to test WASI when releasing.
+      [CMake] Fix building with statically link LLVM-15 on MacOS.
+      [CI] Bump to the latest LLVM-16 on MacOS.
+      [CI] Not to continue on error for the expected passing tests on MacOS.
+      [Plugin] Update the visibility of plug-in functions.
+      [CMake] Update the CMake of plug-ins and tests.
+      [CI] Use openSSL 3.0 on MacOS when building the plug-ins.
+
+dm4 (4):
+      [CI] Fix typo in docker.yml.
+      [Docs] Add the Kwasm document.
+      [Docs] Add wasmedgec use cases for slim container.
+      [Docs] Fix naming of the AOT wasm file.
+
+hydai (1):
+      [Windows] Revert #2455 temporarily. Use CMAKE_MSVC_RUNTIME_LIBRARY instead of MSVC_RUNTIME_LIBRARY.
+
+vincent (1):
+      [Rust] Add a second phase mechanism to load plugins after the vm has already been built. (#2469)
+
+yanghaku (1):
+      [WASI] fix rights of pre-open fd cannot write and fix readonly flag parse (#2458)
+
+zzz (1):
+      [WASI Socket] fix sock opt & add BINDTODEVICE (#2454)
+
